@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/permissionScreen">
+
+    <fragment
+        android:id="@+id/permissionScreen"
+        android:name="uz.gita.arlesson1.PermissionScreen"
+        android:label="PermissionScreen" />
+    <fragment
+        android:id="@+id/arScreen"
+        android:name="uz.gita.arlesson1.ArScreen"
+        android:label="ArScreen" />
+</navigation>
